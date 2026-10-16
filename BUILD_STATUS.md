@@ -33,7 +33,7 @@ User-supplied testimonials integrated and verified in the rendered page.
 
 - `npm.cmd test`: passed, 5 tests / 0 failures.
 - `npm.cmd run build`: passed; output includes all five gallery categories and 25 local images.
-- `node --check app.js`: passed.
+- `node --check site.js`: passed.
 - Browser: header/footer links resolve to `https://mylandingpage-alpha.vercel.app/` with `target="_blank"` and `rel="noopener noreferrer"`; desktop bounds do not overlap, mobile credit sits below logo/menu, and footer fits without overflow.
 - Browser note: at a 1140px CSS viewport, the document extends to 1200px because the existing `.hero::before` decoration extends 60px past the viewport. This predates and is unrelated to the attribution; left unchanged per scope.
 - Browser: rendered all 10 supplied statements and attributions; desktop uses two columns and mobile one column, with no horizontal overflow at 390px.

@@ -35,7 +35,7 @@ test("page omits unconfirmed services and project disclaimers", async () => {
   const html = await readFile(join(root, "index.html"), "utf8");
   const content = await readJson("content/site-content.json");
   assert.doesNotMatch(html, /licensed reference images|not a Phillips Furnish Limited project|not company projects|not a company project/i);
-  assert.doesNotMatch(await readFile(join(root, "app.js"), "utf8"), /not a company project|not a Phillips Furnish Limited project/i);
+  assert.doesNotMatch(await readFile(join(root, "site.js"), "utf8"), /not a company project|not a Phillips Furnish Limited project/i);
   assert.equal("services" in content, false);
 });
 
@@ -53,7 +53,7 @@ test("page includes semantic navigation, contact form, and accessible gallery co
 
 test("contact form keeps clear fields and shows honest email-delivery status", async () => {
   const html = await readFile(join(root, "index.html"), "utf8");
-  const app = await readFile(join(root, "app.js"), "utf8");
+  const app = await readFile(join(root, "site.js"), "utf8");
   for (const label of ["Your name", "Email address", "Room or area", "Approximate timing", "A little about the space"]) {
     assert.ok(html.includes(label), `missing form label: ${label}`);
   }
