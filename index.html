@@ -1,0 +1,214 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#f4f1e8">
+    <meta name="description" content="Furniture and furnishing from Phillips Furnish Limited, with attention to detail, proportion and purpose.">
+    <title>Phillips Furnish Limited | Furniture & interiors</title>
+    <link rel="stylesheet" href="styles.css">
+    <script type="module" src="app.js"></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+    <header class="site-header">
+      <a class="brand" href="#top" aria-label="Phillips Furnish Limited home">
+        <span class="brand-mark" aria-hidden="true">PF</span>
+        <span class="brand-name">Phillips Furnish <small>Limited</small></span>
+      </a>
+      <div class="developer-credit developer-credit-header">
+        <span>Designed &amp; built by</span>
+        <a href="https://mylandingpage-alpha.vercel.app/" target="_blank" rel="noopener noreferrer" aria-label="Enoch Azariah (opens in a new tab)">Enoch Azariah</a>
+        <span aria-hidden="true">↗</span>
+        <a class="developer-website-link" href="https://mylandingpage-alpha.vercel.app/" target="_blank" rel="noopener noreferrer">Visit developer website ↗</a>
+      </div>
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="primary-nav" aria-label="Open navigation">
+        <span></span><span></span>
+      </button>
+      <nav id="primary-nav" class="primary-nav" aria-label="Main navigation">
+        <a href="#about">About</a>
+        <a href="#gallery">Rooms</a>
+        <a href="#testimonials">Testimonials</a>
+        <a href="#contact">Contact</a>
+        <a class="nav-enquiry" href="#contact">Get in touch <span aria-hidden="true">↗</span></a>
+      </nav>
+    </header>
+
+    <main id="main">
+      <section class="hero section-wrap" id="top" aria-labelledby="hero-title">
+        <div class="hero-copy">
+          <p class="eyebrow"><span class="eyebrow-line"></span> Phillips Furnish Limited</p>
+          <h1 id="hero-title">Excellent craft.</h1>
+          <p class="hero-lede">Furniture and furnishings that bring careful detail, balanced proportions and everyday purpose to the room.</p>
+          <div class="hero-actions">
+            <a class="button button-dark" href="#gallery">Explore the gallery <span aria-hidden="true">↓</span></a>
+            <a class="text-link" href="#contact">Discuss a project <span aria-hidden="true">↗</span></a>
+          </div>
+        </div>
+        <figure class="hero-visual">
+          <img src="assets/craft-02.jpg" alt="Woodworker using a chisel and mallet in a workshop while wearing protective glasses." fetchpriority="high">
+        </figure>
+        <a class="hero-scroll" href="#about" aria-label="Scroll to about the company"><span></span> Scroll to explore</a>
+      </section>
+
+      <section class="intro-band" id="about" aria-labelledby="about-title">
+        <div class="section-wrap intro-grid">
+          <div class="intro-heading">
+            <p class="eyebrow">About</p>
+            <h2 id="about-title">Furniture begins<br>with <em>the space.</em></h2>
+          </div>
+          <div class="intro-content">
+            <p class="intro-copy">Every room has its own rhythm. Start with how the space is used, what it needs to hold and the atmosphere you want to create.</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="gallery-section" id="gallery" aria-labelledby="gallery-title">
+        <div class="section-wrap">
+          <div class="section-heading gallery-heading">
+            <div>
+              <p class="eyebrow">Rooms & furniture</p>
+              <h2 id="gallery-title">Furniture for <em>every room.</em></h2>
+            </div>
+            <p class="section-aside">Furniture across bedrooms, dining areas, kitchens and living spaces.</p>
+          </div>
+          <div class="gallery-meta">
+            <div id="gallery-filters" class="gallery-filters" role="group" aria-label="Filter visual reference gallery">
+              <span class="loading-note">Loading gallery categories…</span>
+            </div>
+            <p id="gallery-count" class="gallery-count" aria-live="polite"></p>
+          </div>
+          <p id="gallery-status" class="loading-note" role="status">Loading local images…</p>
+          <div id="gallery-grid" class="gallery-grid"></div>
+          <p id="gallery-empty" class="empty-state" hidden>No references are available in this category yet.</p>
+        </div>
+      </section>
+
+      <section class="testimonials-section" id="testimonials" aria-labelledby="testimonials-title">
+        <div class="section-wrap">
+          <div class="section-heading">
+            <div>
+              <p id="testimonials-title" class="eyebrow">Client perspectives</p>
+            </div>
+            <p class="section-aside">A selection of client comments on furnishing their spaces.</p>
+          </div>
+          <p id="testimonials-status" class="loading-note" role="status">Loading client comments…</p>
+          <div id="testimonial-list" class="testimonial-list"></div>
+        </div>
+      </section>
+
+      <section class="contact-section" id="contact" aria-labelledby="contact-title">
+        <div class="section-wrap contact-grid">
+          <div class="contact-copy">
+            <p class="eyebrow">Contact</p>
+            <h2 id="contact-title">Tell us about<br><em>your space.</em></h2>
+            <p>Share what the room needs and the pieces you have in mind.</p>
+            <p id="contact-status" class="load-error" role="status" hidden></p>
+          </div>
+          <form id="contact-form" class="contact-form">
+            <div id="contact-fields">
+              <div class="form-row">
+                <label for="name">Your name <span class="required-marker" aria-hidden="true">*</span>
+                  <input id="name" name="name" autocomplete="name" required maxlength="100" placeholder="Your name">
+                </label>
+                <label for="email">Email address <span class="required-marker" aria-hidden="true">*</span>
+                  <input id="email" name="email" type="email" autocomplete="email" required maxlength="160" placeholder="you@example.com">
+                </label>
+              </div>
+              <div class="form-row">
+                <label for="room-type">Room or area
+                  <select id="room-type" name="roomType">
+                    <option value="">Choose a room or area</option>
+                    <option value="Bedroom">Bedroom</option>
+                    <option value="Dining area">Dining area</option>
+                    <option value="Kitchen">Kitchen</option>
+                    <option value="Living room">Living room</option>
+                    <option value="Other">Other</option>
+                  </select>
+                </label>
+                <label for="timing">Approximate timing
+                  <select id="timing" name="timing">
+                    <option value="">Choose a timeframe</option>
+                    <option value="1 week">1 week</option>
+                    <option value="2 weeks">2 weeks</option>
+                    <option value="3 weeks">3 weeks</option>
+                    <option value="4 weeks">4 weeks</option>
+                    <option value="5 weeks">5 weeks</option>
+                    <option value="1 month">1 month</option>
+                    <option value="2 months">2 months</option>
+                    <option value="3 months">3 months</option>
+                    <option value="4 months">4 months</option>
+                    <option value="5 months">5 months</option>
+                    <option value="1 year">1 year</option>
+                    <option value="2 years">2 years</option>
+                    <option value="3 years">3 years</option>
+                    <option value="4 years">4 years</option>
+                    <option value="5 years">5 years</option>
+                  </select>
+                </label>
+              </div>
+              <label for="message">A little about the space <span class="required-marker" aria-hidden="true">*</span>
+                <textarea id="message" name="message" rows="4" required minlength="10" maxlength="2000" placeholder="The room, the need, or the idea you have in mind"></textarea>
+              </label>
+              <div class="form-end">
+                <button class="button button-light" type="submit">Submit enquiry <span aria-hidden="true">↗</span></button>
+                <p class="required-note"><span aria-hidden="true">*</span> Required</p>
+              </div>
+            </div>
+            <section id="form-result" class="form-result" aria-labelledby="form-result-title" tabindex="-1" hidden>
+              <p class="form-result-label">Enquiry status</p>
+              <h3 id="form-result-title">Enquiry not sent</h3>
+              <p class="form-result-notice">Email delivery is still being set up. Your enquiry has <strong>not been sent or saved.</strong></p>
+              <p>Once the email backend is connected, the intended outcome is for enquiries to reach Mr. Philip by email. Until then, this website does not retain the details you entered.</p>
+              <button id="new-enquiry" class="copy-button" type="button">Start another enquiry</button>
+            </section>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="section-wrap footer-top">
+        <a class="brand footer-brand" href="#top" aria-label="Phillips Furnish Limited, back to top">
+          <span class="brand-mark" aria-hidden="true">PF</span>
+          <span class="brand-name">Phillips Furnish <small>Limited</small></span>
+        </a>
+        <p>Furniture & furnishing</p>
+        <a class="footer-up" href="#top" aria-label="Back to top">↑</a>
+      </div>
+      <div class="section-wrap footer-bottom">
+        <span>© <span id="year"></span> Phillips Furnish Limited</span>
+        <span>Phillips Furnish Limited</span>
+        <a href="#contact">Contact ↗</a>
+        <div class="developer-credit developer-credit-footer">
+          <span>Designed &amp; built by</span>
+          <a href="https://mylandingpage-alpha.vercel.app/" target="_blank" rel="noopener noreferrer" aria-label="Enoch Azariah (opens in a new tab)">Enoch Azariah</a>
+          <span aria-hidden="true">↗</span>
+          <a class="developer-website-link" href="https://mylandingpage-alpha.vercel.app/" target="_blank" rel="noopener noreferrer">Visit developer website ↗</a>
+        </div>
+      </div>
+    </footer>
+
+    <dialog id="lightbox" class="lightbox" aria-labelledby="lightbox-title">
+      <div class="lightbox-topline">
+        <p id="lightbox-category" class="eyebrow">Reference image</p>
+        <button id="lightbox-close" class="icon-button" type="button" aria-label="Close image viewer">×</button>
+      </div>
+      <div class="lightbox-stage">
+        <button id="lightbox-prev" class="icon-button lightbox-arrow" type="button" aria-label="Previous image">←</button>
+        <figure class="lightbox-figure">
+          <div class="lightbox-image-wrap">
+            <img id="lightbox-image" alt="">
+            <div id="lightbox-fallback" class="image-fallback" hidden>Reference image unavailable</div>
+          </div>
+          <figcaption>
+            <span id="lightbox-title"></span>
+            <span id="lightbox-credit" class="lightbox-credit"></span>
+          </figcaption>
+        </figure>
+        <button id="lightbox-next" class="icon-button lightbox-arrow" type="button" aria-label="Next image">→</button>
+      </div>
+      <p id="lightbox-counter" class="lightbox-counter" aria-live="polite"></p>
+    </dialog>
+  </body>
+</html>

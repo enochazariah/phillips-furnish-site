@@ -1,0 +1,78 @@
+{
+  "license": {
+    "provider": "Pexels",
+    "licenseName": "Pexels License",
+    "licenseUrl": "https://www.pexels.com/license/",
+    "summary": "Pexels states its photos are free to use, attribution is not required, and website use is permitted. Credits are recorded here as a courtesy. Do not imply that pictured people, brands or projects endorse Phillips Furnish Limited.",
+    "checked": true
+  },
+  "usageNotice": "Every image below is third-party editorial reference imagery. None documents a Phillips Furnish Limited project or confirms a company service.",
+  "categories": [
+    {
+      "id": "craft",
+      "title": "Workshop & craft",
+      "proposalStatus": "Proposed gallery category; not a confirmed company service",
+      "images": [
+        { "id": "craft-01", "localPath": "assets/craft-01.jpg", "sourceUrl": "https://www.pexels.com/photo/woodworking-craftsman-using-hand-plane-tool-37358117/", "title": "Craftsman smoothing wood with a hand plane", "credit": "Gizem Toprak / Pexels", "verificationStatus": "verified", "verification": "Source page accessible and marked free; local image downloaded; visual category and watermark check passed. Editorial reference only." },
+        { "id": "craft-02", "localPath": "assets/craft-02.jpg", "sourceUrl": "https://www.pexels.com/photo/a-man-doing-carpentry-6790066/", "title": "Woodworker carving timber in a workshop", "credit": "Tima Miroshnichenko / Pexels", "verificationStatus": "verified", "verification": "Source page accessible and marked free; local image downloaded; visual category and watermark check passed. Editorial reference only." },
+        { "id": "craft-03", "localPath": "assets/craft-03.jpg", "sourceUrl": "https://www.pexels.com/photo/hands-of-carpenter-cutting-wood-with-saw-16496901/", "title": "Carpenter cutting wood on a table saw", "credit": "Ismael Campos Carrillo / Pexels", "verificationStatus": "verified", "verification": "Source page accessible and marked free; local image downloaded; visual category and watermark check passed. Editorial reference only." },
+        { "id": "craft-04", "localPath": "assets/craft-04.jpg", "sourceUrl": "https://www.pexels.com/photo/person-holding-brown-wooden-board-5089152/", "title": "Craftsman's hands working with wood", "credit": "cottonbro studio / Pexels", "verificationStatus": "verified", "verification": "Source page accessible and marked free; local image downloaded; visual category and watermark check passed. Editorial reference only." },
+        { "id": "craft-05", "localPath": "assets/craft-05.jpg", "sourceUrl": "https://www.pexels.com/photo/a-person-doing-woodwork-7482640/", "title": "Hands sanding wood in a workshop", "credit": "cottonbro studio / Pexels", "verificationStatus": "verified", "verification": "Source page accessible and marked free; local image downloaded; visual category and watermark check passed. Editorial reference only." }
+      ]
+    },
+    {
+      "id": "bedroom",
+      "title": "Bedrooms",
+      "proposalStatus": "Proposed gallery category; not a confirmed company service",
+      "images": [
+        { "id": "bedroom-01", "localPath": "assets/bedroom-01.jpg", "sourceUrl": "https://www.pexels.com/photo/bedroom-interior-with-comfy-bed-and-bench-7147299/", "title": "Bedroom with a bed and bench", "credit": "Max Vakhtbovych / Pexels", "verificationStatus": "verified", "verification": "Source page accessible and marked free; local image downloaded; visual category and watermark check passed. Editorial reference only." },
+        { "id": "bedroom-02", "localPath": "assets/bedroom-02.jpg", "sourceUrl": "https://www.pexels.com/photo/decor-in-bedroom-8092163/", "title": "Vintage bedroom with an iron bed", "credit": "Max Vakhtbovych / Pexels", "verificationStatus": "verified", "verification": "Source page accessible and marked free; local image downloaded; visual category and watermark check passed. Editorial reference only." },
+        { "id": "bedroom-03", "localPath": "assets/bedroom-03.jpg", "sourceUrl": "https://www.pexels.com/photo/historic-english-bedroom-with-vintage-decor-37884161/", "title": "Historic English bedroom with vintage decor", "credit": "Michael D. Beckwith / Pexels", "verificationStatus": "verified", "verification": "Source page accessible and marked free; local image downloaded; visual category and watermark check passed. Editorial reference only." },
+        { "id": "bedroom-04", "localPath": "assets/bedroom-04.jpg", "sourceUrl": "https://www.pexels.com/photo/rustic-pretty-bedroom-15456211/", "title": "Rustic bedroom with natural light", "credit": "Duc Dao / Pexels", "verificationStatus": "verified", "verification": "Source page accessible and marked free; local image downloaded; visual category and watermark check passed. Editorial reference only." },
+        { "id": "bedroom-05", "localPath": "assets/bedroom-05.png", "sourceUrl": "https://www.pexels.com/photo/modern-minimalist-bedroom-wardrobe-design-32331030/", "title": "Modern bedroom wardrobe", "credit": "The Ghazi / Pexels", "verificationStatus": "verified", "verification": "Source page accessible and marked free; local PNG downloaded at 2560 x 2560; visual category and watermark check passed. Editorial reference only." }
+      ]
+    },
+    {
+      "id": "dining",
+      "title": "Dining & tables",
+      "proposalStatus": "Proposed gallery category; not a confirmed company service",
+      "images": [
+        { "id": "dining-01", "localPath": "assets/dining-01.jpg", "sourceUrl": "https://www.pexels.com/photo/dining-room-with-kitchenette-24461264/", "title": "Dining room with a dark wooden table", "credit": "Алан Албегов / Pexels", "verificationStatus": "verified", "verification": "Source page accessible and marked free; local image downloaded; visual category and watermark check passed. Editorial reference only." },
+        { "id": "dining-02", "localPath": "assets/dining-02.jpg", "sourceUrl": "https://www.pexels.com/photo/a-white-dining-table-with-a-wooden-chair-and-a-picture-on-the-wall-27459702/", "title": "Minimalist dining room with a wooden table", "credit": "Martin Lang / Pexels", "verificationStatus": "verified", "verification": "Source page accessible and marked free; local image downloaded; visual category and watermark check passed. Editorial reference only." },
+        { "id": "dining-03", "localPath": "assets/dining-03.jpg", "sourceUrl": "https://www.pexels.com/photo/stylish-dining-room-with-creative-decorative-vases-6969826/", "title": "Dining room with a round table and chairs", "credit": "Max Vakhtbovych / Pexels", "verificationStatus": "verified", "verification": "Source page accessible and marked free; local image downloaded; visual category and watermark check passed. Editorial reference only." },
+        { "id": "dining-04", "localPath": "assets/dining-04.jpg", "sourceUrl": "https://www.pexels.com/photo/wooden-chairs-around-a-table-12715458/", "title": "Wooden chairs in a minimalist room", "credit": "Keegan Checks / Pexels", "verificationStatus": "verified", "verification": "Source page accessible and marked free; local image downloaded; visual category and watermark check passed. Editorial reference only." },
+        { "id": "dining-05", "localPath": "assets/dining-05.jpg", "sourceUrl": "https://www.pexels.com/photo/photo-of-wooden-table-on-top-of-carpet-3935326/", "title": "Sunlit dining room with a wooden table", "credit": "Curtis Adams / Pexels", "verificationStatus": "verified", "verification": "Source page accessible and marked free; local image downloaded; visual category and watermark check passed. Editorial reference only." }
+      ]
+    },
+    {
+      "id": "kitchen",
+      "title": "Kitchens & cabinetry",
+      "proposalStatus": "Proposed gallery category; not a confirmed company service",
+      "images": [
+        { "id": "kitchen-01", "localPath": "assets/kitchen-01.jpg", "sourceUrl": "https://www.pexels.com/photo/wooden-furniture-and-table-in-contemporary-kitchen-with-dining-zone-6284235/", "title": "Kitchen with wooden cabinets and modern appliances", "credit": "Max Vakhtbovych / Pexels", "verificationStatus": "verified", "verification": "Source page accessible and marked free; local image downloaded; visual category and watermark check passed. Editorial reference only." },
+        { "id": "kitchen-02", "localPath": "assets/kitchen-02.jpg", "sourceUrl": "https://www.pexels.com/photo/white-closets-in-kitchen-19980216/", "title": "White kitchen cabinets and appliances", "credit": "Alex Tyson / Pexels", "verificationStatus": "verified", "verification": "Source page accessible and marked free; local image downloaded; visual category and watermark check passed. Editorial reference only." },
+        { "id": "kitchen-03", "localPath": "assets/kitchen-03.jpg", "sourceUrl": "https://www.pexels.com/photo/modern-minimalist-kitchen-interior-design-34992769/", "title": "Modern kitchen with wood details", "credit": "Liuuu _61 / Pexels", "verificationStatus": "verified", "verification": "Source page accessible and marked free; local image downloaded; visual category and watermark check passed. Editorial reference only." },
+        { "id": "kitchen-04", "localPath": "assets/kitchen-04.jpg", "sourceUrl": "https://www.pexels.com/photo/gray-cabinets-in-the-kitchen-7746657/", "title": "Grey cabinets and wooden countertops", "credit": "Max Vakhtbovych / Pexels", "verificationStatus": "verified", "verification": "Source page accessible and marked free; local image downloaded; visual category and watermark check passed. Editorial reference only." },
+        { "id": "kitchen-05", "localPath": "assets/kitchen-05.jpg", "sourceUrl": "https://www.pexels.com/photo/large-contemporary-kitchen-8089082/", "title": "Contemporary kitchen with wood accents", "credit": "Max Vakhtbovych / Pexels", "verificationStatus": "verified", "verification": "Source page accessible and marked free; local image downloaded; visual category and watermark check passed. Editorial reference only." }
+      ]
+    },
+    {
+      "id": "living",
+      "title": "Living spaces",
+      "proposalStatus": "Proposed gallery category; not a confirmed company service",
+      "images": [
+        { "id": "living-01", "localPath": "assets/living-01.jpg", "sourceUrl": "https://www.pexels.com/photo/interior-design-of-a-cozy-living-room-7511701/", "title": "Living room with a grey sofa and plants", "credit": "Max Vakhtbovych / Pexels", "verificationStatus": "verified", "verification": "Source page accessible and marked free; local image downloaded; visual category and watermark check passed. Editorial reference only." },
+        { "id": "living-02", "localPath": "assets/living-02.jpg", "sourceUrl": "https://www.pexels.com/photo/grey-fabric-sectional-sofa-on-brown-wooden-floor-1743226/", "title": "Modern living room with a grey sectional sofa", "credit": "Viaceslav Kat / Pexels", "verificationStatus": "verified", "verification": "Source page accessible and marked free; local image downloaded; visual category and watermark check passed. Editorial reference only." },
+        { "id": "living-03", "localPath": "assets/living-03.jpg", "sourceUrl": "https://www.pexels.com/photo/set-of-living-room-furniture-2029663/", "title": "Living room with natural wood decor", "credit": "Zak Chapman / Pexels", "verificationStatus": "verified", "verification": "Source page accessible and marked free; local image downloaded; visual category and watermark check passed. Editorial reference only." },
+        { "id": "living-04", "localPath": "assets/living-04.jpg", "sourceUrl": "https://www.pexels.com/photo/a-cozy-living-room-with-television-and-couch-7166926/", "title": "Living room with a sofa and warm lighting", "credit": "Max Vakhtbovych / Pexels", "verificationStatus": "verified", "verification": "Source page accessible and marked free; local image downloaded; visual category and watermark check passed. Editorial reference only." },
+        { "id": "living-05", "localPath": "assets/living-05.jpg", "sourceUrl": "https://www.pexels.com/photo/side-tables-near-couch-in-room-6758284/", "title": "Side tables and seating in a modern living room", "credit": "Max Vakhtbovych / Pexels", "verificationStatus": "verified", "verification": "Source page accessible and marked free; local image downloaded; visual category and watermark check passed. Editorial reference only." }
+      ]
+    }
+  ],
+  "rejectedCandidates": [
+    { "sourceUrl": "https://unsplash.com/photos/a-computer-monitor-sitting-on-top-of-a-desk-EIwXyC03UJk", "reason": "The image showed a gaming chair and computer setup, not a useful furniture-room reference. Not used." },
+    { "sourceUrl": "https://unsplash.com/photos/a-kitchen-with-light-grey-cabinets-wooden-shelves-and-a-stainless-steel-stove-OlwQIOeDG2s", "reason": "The source page identified this as Unsplash+; excluded." },
+    { "sourceUrl": "https://unsplash.com/photos/a-bedroom-with-a-bed-nightstand-and-vase-with-flowers-5zDFUb4R-60", "reason": "The source page identified this as Unsplash+; excluded." },
+    { "sourceUrl": "https://unsplash.com/photos/a-living-room-filled-with-furniture-and-a-painting-on-the-wall-Faa_P3eaaGo", "reason": "The source page identified this as Unsplash+; excluded." }
+  ]
+}

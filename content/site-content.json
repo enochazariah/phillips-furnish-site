@@ -1,0 +1,60 @@
+{
+  "testimonials": [
+    {
+      "name": "Barrister David",
+      "project": "Office Furnishing",
+      "quote": "The quality of the furnishing and the attention to detail made a strong impression on us. We wanted a professional environment that reflected our standards, and the finished space needed to feel both functional and welcoming."
+    },
+    {
+      "name": "Engineer Collins",
+      "project": "Residential Furniture",
+      "quote": "We were looking for furniture that combined practicality with an elegant appearance. The key consideration for us was getting a result that suited the space and the way we use it every day."
+    },
+    {
+      "name": "Mrs. Grace",
+      "project": "Dining Furniture",
+      "quote": "The dining area needed to be comfortable, attractive, and suitable for family gatherings. We appreciated the importance of getting the design and proportions right for the room."
+    },
+    {
+      "name": "Mr. Samuel",
+      "project": "Kitchen Cabinetry",
+      "quote": "A well-organised kitchen makes a real difference to daily life. We wanted cabinetry that made good use of the available space while maintaining a clean, coordinated appearance."
+    },
+    {
+      "name": "Mrs. Amina",
+      "project": "Executive Office",
+      "quote": "The office environment needed to communicate professionalism without sacrificing comfort. Choosing suitable furniture was an important part of creating a space where people can work effectively."
+    },
+    {
+      "name": "Mr. Ibrahim",
+      "project": "Bedroom Storage",
+      "quote": "Our priority was to make better use of the available bedroom space. A thoughtful storage solution can improve organisation while helping the room maintain a neat, cohesive look."
+    },
+    {
+      "name": "Dr. Michael",
+      "project": "Reception Area",
+      "quote": "The reception area creates an important first impression. We wanted furniture that would help the space look professional while remaining comfortable and practical for visitors."
+    },
+    {
+      "name": "Mrs. Esther",
+      "project": "Custom Furniture",
+      "quote": "When furnishing a space, the small details matter. The goal was to find a solution that fitted the room, complemented the existing interior, and served a clear practical purpose."
+    },
+    {
+      "name": "Mr. Daniel",
+      "project": "Conference Room",
+      "quote": "A meeting room should support collaboration and present a professional image. Furniture selection needs to balance the room's layout, seating requirements, and overall appearance."
+    },
+    {
+      "name": "Mrs. Rebecca",
+      "project": "Interior Furnishing",
+      "quote": "Creating a coordinated interior involves more than selecting individual pieces of furniture. The colours, materials, layout, and functionality all need to work together to make a space feel complete."
+    }
+  ],
+  "contact": {
+    "email": null,
+    "phone": null,
+    "address": null,
+    "noteMessage": "This note is prepared in your browser and is not sent to Phillips Furnish Limited."
+  }
+}
